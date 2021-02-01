@@ -1,0 +1,46 @@
+.page-header {
+  background-color: #b2afab;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("assets/img/login-image.jpg");
+  min-height: 100vh;
+  max-height: 999px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  line-height: 1.6;
+  margin: 15px 3px;
+  padding: 10px 15px;
+  opacity: 0.8;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: 50%/100% 100% no-repeat;
+  color: #ffffff;
+}
+
+.navbar.navbar-transparent .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-transparent .navbar-nav .nav-item .nav-link:not(.btn),
+[class*="bg"] .navbar-nav .nav-item .nav-link:not(.btn) {
+  color: #ffffff;
+  border-color: #ffffff;
+}
